@@ -1,6 +1,9 @@
 @font-face {
     font-family: 'work sans';
-    src: url(./fonts/WorkSans-VariableFont_wght.ttf);
+    src: url('./fonts/WorkSans-VariableFont_wght.ttf');
+}
+* {
+    font-family: 'work sans';
 }
 .header-bg {
     background-color: oldlace;
@@ -99,14 +102,11 @@ ul li a {
 .container {
     display: flex;
 }
-.container-cart {
-    
-}
 .content-title {
     width: 468px;
     font-size: 45px;
     margin-left: 115px;
-    margin-top: 70px;
+    margin-top: 90px;
 }
 .content-description {
     width: 586px;
@@ -118,7 +118,7 @@ ul li a {
 .cart-contain {
     width: 586px;
     height: 171px;
-    background-color: bisque;
+    background-color: #ffe4c438;
     margin-left: 60px;
     border-radius: 7px;
 }
@@ -130,6 +130,7 @@ ul li a {
 }
 .cart-title {
     font-size: 20px;
+    margin-bottom: -7px;
 }
 .cart-description {
     font-size: 16px;
@@ -138,8 +139,8 @@ ul li a {
 .content-img {
     width: 708px;
     height: 982px;
-    margin-top: 70px;
-    margin-left: 50px;
+    margin-top: 75px;
+    margin-left: 75px;
 }
 .content-left {
     position: relative;
@@ -154,7 +155,7 @@ ul li a {
     background-color: rgb(255, 166, 0);
     color: white;
     border: none;
-    margin-top: -53px;
+    margin-top: -66px;
 }
 /* Awards section */
 .award-contain {
@@ -164,20 +165,60 @@ ul li a {
 .awards-description {
     width: 542px;
     color: #546285;
+    margin-bottom: 58px;
 }
 .carts-container {
    display: flex;
-   
+   justify-content: center;
+   gap: 60px;
 }
 .carts-content {
-    width: 241px;
-    height: 241px;
+    width: 220px;
+    height: 210px;
     border: 1px solid rgb(255, 166, 0);
+}
+.carts-content:hover {
+    border-color: blue;
 }
 .award-carts {
     width: 169px;
     height: 136px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 32px;
     margin-left: 30px;
+}
+/* sponsor section */
+.sponspor-contain {
+    text-align: center;
+    margin-top: 70px;
+}
+.sponspor-title {
+    font-weight: bold;
+}
+.sponspor-description {
+    color: #546285;
+}
+.sponspor-logo {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.sponspor-images {
+    width: 130px;
+}
+/* footer section */
+.footer-content {
+    background-color: lightpink;
+    width: 1140px;
+    height: 70px;
+    border-radius: 5px;
+    margin-left: 198px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+.footer-description {
+    font-size: 12px;
 }
