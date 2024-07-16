@@ -2,6 +2,10 @@
     font-family: 'work sans';
     src: url(./fonts/WorkSans-VariableFont_wght.ttf);
 }
+.header-bg {
+    background-color: oldlace;
+    
+}
 .header {
     display: flex;
 }
@@ -10,7 +14,7 @@
     margin-left: 35px;
 }
 .navigation-menu {
-    word-spacing: 12px;
+    word-spacing: 15px;
 }
 ul {
     margin-left: 900px;
@@ -24,6 +28,8 @@ ul li {
 }
 ul li a {
     text-decoration: none;
+    font-weight: bold;
+    color: black;
 }
 /* brand section */
 .brand-container {
@@ -49,4 +55,34 @@ ul li a {
     width: 1440px;
     height: 700px;
 }
+/* features section */
 
+.features-container {
+    display: flex;
+}
+.features-right {
+    display: flex;
+    margin-left: 167px;
+    margin-top: 15px;
+}
+.features-sup-title {
+    color: #546285;
+}
+.text-black{
+    color: black;
+    font-weight: bold;
+}
+.text-yellow {
+    color: darkorange;
+}
+.features-left {
+    margin-top: 180px;
+}
+.features-btn {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    background-color: rgb(255, 166, 0);
+    color: white;
+    border: none;
+}
