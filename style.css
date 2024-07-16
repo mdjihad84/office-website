@@ -65,6 +65,14 @@ ul li a {
     margin-left: 167px;
     margin-top: 15px;
 }
+.features-img {
+    margin-right: 50px;
+}
+.features-img img {
+    width: 300px;
+    margin-right: -40px;
+    margin-top: 10px;
+}
 .features-sup-title {
     color: #546285;
 }
@@ -76,7 +84,8 @@ ul li a {
     color: darkorange;
 }
 .features-left {
-    margin-top: 180px;
+    margin-top: 250px;
+    margin-left: 60px;
 }
 .features-btn {
     padding: 10px;
@@ -85,4 +94,90 @@ ul li a {
     background-color: rgb(255, 166, 0);
     color: white;
     border: none;
+}
+/* content section */
+.container {
+    display: flex;
+}
+.container-cart {
+    
+}
+.content-title {
+    width: 468px;
+    font-size: 45px;
+    margin-left: 115px;
+    margin-top: 70px;
+}
+.content-description {
+    width: 586px;
+    margin-left: 90px;
+    text-align: left;
+    color: #546285;
+    margin-top: -15px;
+}
+.cart-contain {
+    width: 586px;
+    height: 171px;
+    background-color: bisque;
+    margin-left: 60px;
+    border-radius: 7px;
+}
+.content-cart {
+    width: 514px;
+    margin-left: 30px;
+    margin-top: 30px;
+    padding: 15px;
+}
+.cart-title {
+    font-size: 20px;
+}
+.cart-description {
+    font-size: 16px;
+    color: #546285;
+}
+.content-img {
+    width: 708px;
+    height: 982px;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+.content-left {
+    position: relative;
+}
+.content-btn {
+    position: absolute;
+}
+.content-btn button{
+    padding: 25px;
+    border-radius: 5px;
+    font-size: 30px;
+    background-color: rgb(255, 166, 0);
+    color: white;
+    border: none;
+    margin-top: -53px;
+}
+/* Awards section */
+.award-contain {
+    margin-left: 55px;
+    margin-top: 150px;
+}
+.awards-description {
+    width: 542px;
+    color: #546285;
+}
+.carts-container {
+    display: flex;
+    flex-direction: ;
+}
+.carts-content {
+    width: 241px;
+    height: 241px;
+    border: 1px solid rgb(255, 166, 0);
+}
+.award-carts {
+    width: 169px;
+    height: 136px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 30px;
 }
