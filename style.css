@@ -166,8 +166,8 @@ ul li a {
     color: #546285;
 }
 .carts-container {
-    display: flex;
-    flex-direction: ;
+   display: flex;
+   
 }
 .carts-content {
     width: 241px;
