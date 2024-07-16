@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'work sans';
+    src: url(./fonts/WorkSans-VariableFont_wght.ttf);
+}
+.header {
+    display: flex;
+}
+.header-title {
+    font-weight: bold;
+    margin-left: 35px;
+}
+.navigation-menu {
+    word-spacing: 12px;
+}
+ul {
+    margin-left: 900px;
+    text-align: center;
+    line-height: 26px;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+}
+ul li a {
+    text-decoration: none;
+}
+/* brand section */
+.brand-container {
+    text-align: center;
+}
+
+.brand-content {
+   
+}
+.header-title {
+    font-weight: bold;
+}
+.brand-btn {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    background-color: rgb(255, 166, 0);
+    color: white;
+    border: none;
+}
+.banner-pic {
+    margin-top: 80px;
+    width: 1440px;
+    height: 700px;
+}
+
