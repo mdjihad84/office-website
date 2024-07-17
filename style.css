@@ -7,19 +7,18 @@
     font-family: 'work sans';
 }
 
-.header-bg {
+.header-container {
     background-color: rgb(255 144 14 / 10%);
     margin-bottom: 30px;
 }
 
 .header {
     display: flex;
-
 }
 
 .header-title {
     font-weight: bold;
-    margin-left: 56px;
+    margin-left: 115px;
 }
 
 .navigation-menu {
@@ -77,13 +76,12 @@ ul li a {
 .banner-pic {
     margin-top: 80px;
     margin-bottom: 35px;
-    margin-left: 30px;
+    margin-left: 20px;
     width: 1300px;
     height: 630px;
 }
 
 /* features section */
-
 .features-container {
     display: flex;
 }
@@ -95,7 +93,7 @@ ul li a {
 }
 
 .features-img {
-    margin-right: 50px;
+    margin-right: 52px;
 }
 
 .features-img img {
@@ -183,10 +181,10 @@ ul li a {
     width: 708px;
     height: 982px;
     margin-top: 75px;
-    margin-left: 75px;
+    margin-left: 60px;
 }
 
-.content-left {
+.content-right {
     position: relative;
 }
 
@@ -253,7 +251,7 @@ ul li a {
     margin-left: 24px;
 }
 
-.cart-number {
+.cart-point {
     margin-top: 10px;
     margin-bottom: -12px;
     font-size: 35px;
