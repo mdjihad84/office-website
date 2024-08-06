@@ -318,7 +318,7 @@ ul li a {
    
     /* header section */
     .header {
-        margin-left: -15px;
+        margin-left: -20px;
     }
     .header-title {
        display: none;
@@ -331,6 +331,9 @@ ul li a {
     ul li {
         list-style: none;
         display: inline-block;
+    }
+    ul li a {
+        font-size: 17px;
     }
    /* brand section */
     .brand-title {
@@ -353,12 +356,12 @@ ul li a {
         margin-top: 10px;
     }
     .banner-pic {
-        margin-top: 80px;
-        margin-left: -9px;
-        width: 400px;
-        height: 430px;
+        margin-top: 60px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        width: 390px;
+        height: 340px;
     }
-   
    
     /* feature section */
     .features-container {
@@ -367,7 +370,7 @@ ul li a {
     }
     .features-left {
         margin-top: 0px;
-        margin-left: 65px;
+        margin-left: 20px;
         margin-right: 17px;
         color: #546285;
         margin-bottom: 34px;
@@ -396,6 +399,11 @@ ul li a {
         border: none;
         margin-top: 10px;
     }
+    .features-img img {
+        width: 340px;
+        margin-top: 10px;
+        margin-left: -20px;
+    }
     /* content section */
     .container {
         display: flex;
@@ -410,32 +418,32 @@ ul li a {
         box-shadow: 0px 1px 10px 1px;
     }
     .content-title {
-        font-size: 28px;
-        margin-left: 70px;
+        font-size: 21px;
+        margin-left: 30px;
         margin-top: 50px;
         margin-bottom: 30px;
     }
     .content-description {
-        width: 322px;
+        width: 378px;
         font-size: 13px;
-        margin-left: 71px;
+        margin-left: 30px;
         text-align: left;
         color: #546285;
-        margin-bottom: 25px;
+        margin-bottom: 30px;
     }
     .cart-contain {
-        width: 312px;
+        width: 340px;
         height: 158px;
         background-color: #0d0c0c05;
-        margin-left: 60px;
+        margin-left: 32px;
         border-radius: 7px;
         box-shadow: 0px 1px 10px 1px;
     }
     .content-cart {
-        width: 237px;
+        width: 310px;
         height: 125px;
-        margin-left: 20px;
-        margin-top: 0px;
+        margin-left: 2px;
+        margin-top: 2px;
         padding: 15px;
         background-color: white;
     }
@@ -448,10 +456,10 @@ ul li a {
         color: #546285;
     }
     .content-img {
-        width: 307px;
-        height: 300px;
+        width: 345px;
+        height: 500px;
         margin-top: 75px;
-        margin-left: 39px;
+        margin-left: 32px;
     }
     .content-btn {
         width: 156px;
@@ -460,7 +468,7 @@ ul li a {
         font-size: 65px;
         background-color: rgb(255, 166, 0);
         color: white;
-        margin-top: -75px;
+        margin-top: -55px;
         margin-left: 11px;
     }
     .child-btn {
@@ -482,8 +490,14 @@ ul li a {
         display: grid;
         grid-template-columns: 1fr 1fr;
         margin-right: 20px;
-        margin-left: 13px;
+        margin-left: 17px;
         gap: 10px;
+    }
+    .award-contain {
+        margin-left: 100px;
+        margin-top: 80px;
+        width: 201px;
+        text-align: center;
     }
     .carts-content {
         width: 180px;
@@ -499,10 +513,11 @@ ul li a {
         margin-left: 24px;
     }
     .awards-description {
-        width: 242px;
+        width: 264px;
         color: #546285;
         margin-bottom: 58px;
         font-size: 12px;
+        margin-left: -37px;
     }
     /* sponspor section */
     .sponspor-title {
