@@ -2,40 +2,34 @@
     font-family: 'work sans';
     src: url('./fonts/WorkSans-VariableFont_wght.ttf');
 }
-
 * {
     font-family: 'work sans';
 }
 
+/* header section */
 .header-container {
     background-color: rgb(255 144 14 / 10%);
     margin-bottom: 30px;
 }
-
 .header {
     display: flex;
 }
-
 .header-title {
     font-weight: bold;
     margin-left: 115px;
 }
-
 .navigation-menu {
     word-spacing: 45px;
 }
-
 ul {
     margin-left: 730px;
     text-align: center;
     line-height: 35px;
 }
-
 ul li {
     list-style: none;
     display: inline-block;
 }
-
 ul li a {
     text-decoration: none;
     font-weight: bold;
@@ -46,33 +40,28 @@ ul li a {
 .brand-container {
     text-align: center;
 }
-
 .header-title {
     font-weight: bold;
 }
-
 .brand-title {
     font-weight: bold;
     font-size: 64px;
 }
-
 .brand-description {
     color: #546285;
     font-size: 16px;
     margin-top: -32px;
 }
-
 .brand-btn {
     width: 180px;
     height: 64px;
     border-radius: 5px;
     font-size: 20px;
-    background-color: rgb(255, 166, 0);
+    background-color: #ff900e;
     color: white;
     border: none;
     margin-top: 10px;
 }
-
 .banner-pic {
     margin-top: 80px;
     margin-bottom: 35px;
@@ -85,51 +74,43 @@ ul li a {
 .features-container {
     display: flex;
 }
-
 .features-right {
     display: flex;
     margin-left: 100px;
     margin-top: 15px;
 }
-
 .features-img {
     margin-right: 52px;
 }
-
 .features-img img {
     width: 300px;
     margin-right: -40px;
     margin-top: 10px;
 }
-
 .features-sup-title {
     color: #546285;
     font-size: 35px;
     margin-bottom: 0px;
 }
-
 .text-black{
     color: black;
     font-weight: bold;
 }
-
 .text-yellow {
-    color: darkorange;
+    color: #ff900e;
 }
-
 .features-left {
     margin-top: 220px;
     margin-left: 75px;
     margin-right: 60px;
     color: #546285;
 }
-
 .features-btn {
     width: 180px;
     height: 64px;
     border-radius: 5px;
     font-size: 20px;
-    background-color: rgb(255, 166, 0);
+    background-color: #ff900e;
     color: white;
     border: none;
 }
@@ -138,31 +119,29 @@ ul li a {
 .container {
     display: flex;
 }
-
-.content-title {
+.content h2 {
     width: 468px;
     font-size: 45px;
-    margin-left: 100px;
+    margin-left: 76px;
     margin-top: 90px;
+    padding-left: 20px;
+    border-left: 5px solid #ff900e;
 }
-
-.content-description {
+.content p {
     width: 586px;
     margin-left: 100px;
     text-align: left;
     color: #546285;
     margin-top: -15px;
 }
-
 .cart-contain {
     width: 586px;
     height: 171px;
-    background-color: #0d0c0c05;
     margin-left: 60px;
     border-radius: 7px;
-    box-shadow: 0px 1px 10px 1px;
+    margin-top: 12px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
 }
-
 .content-cart {
     width: 514px;
     height: 125px;
@@ -171,50 +150,48 @@ ul li a {
     padding: 15px;
     background-color: white;
 }
-
-.cart-title {
+.content-cart h3 {
     font-size: 20px;
     margin-bottom: -7px;
 }
-
-.cart-description {
+.content-cart p {
     font-size: 16px;
     color: #546285;
+    margin-top: 25px;
 }
-
 .content-img {
-    width: 708px;
-    height: 982px;
+    width: 695px;
+    height: 983px;
     margin-top: 75px;
     margin-left: 60px;
 }
-
 .content-right {
     position: relative;
 }
-
 .content-btn {
     position: absolute;
 }
-
 .content-btn{
     width: 342px;
     height: 200px;
     border-radius: 5px;
-    font-size: 65px;
-    background-color: rgb(255, 166, 0);
+    font-size: 55px;
+    background-color: #ff900e;
     color: white;
     margin-top: -100px;
 }
-
 .content-child-btn {
     width: 258px;
     text-align: center;
     margin-top: 20px;
-    margin-left: 30px;
+    margin-left: 40px;
 }
-
-.content-child-btn span {
+.content-child-btn h2 {
+    font-size: 50px;
+}
+.content-child-btn p {
+    color: white;
+    margin-top: -97px;
     font-size: 25px;
 }
 
@@ -223,36 +200,30 @@ ul li a {
     margin-left: 100px;
     margin-top: 150px;
 }
-
 .awards-title {
     font-size: 35px;
     margin-bottom: 0px;
 }
-
 .awards-description {
     width: 542px;
     color: #546285;
     margin-bottom: 58px;
 }
-
 .carts-container {
    display: flex;
    justify-content: center;
    gap: 70px;
 }
-
 .carts-content {
     width: 215px;
     height: 200px;
-    border: 1px solid rgb(255, 166, 0);
+    border: 1px solid #ff900e;
     border-radius: 7px;
 }
-
 .carts-content:hover {
     border: 3px solid;
     border-color: blue;
 }
-
 .award-carts {
     width: 169px;
     height: 136px;
@@ -260,7 +231,6 @@ ul li a {
     margin-top: 32px;
     margin-left: 24px;
 }
-
 .cart-point {
     margin-top: 10px;
     margin-bottom: -12px;
@@ -272,26 +242,22 @@ ul li a {
     text-align: center;
     margin-top: 70px;
 }
-
 .sponspor-title {
     font-weight: bold;
     font-size: 45px;
 }
-
 .sponspor-description {
     width: 542px;
     color: #546285;
     margin-left: 470px;
     margin-top: -20px;
 }
-
 .sponspor-logo {
     display: flex;
     justify-content: center;
     gap: 130px;
     margin-top: 50px;
 }
-
 .sponspor-images {
     width: 130px;
 }
@@ -313,7 +279,7 @@ ul li a {
 .footer-description {
     font-size: 12px;
 }
-/* responsive */
+/* responsive media quaris*/
 @media only screen and (max-width: 640px) {
    
     /* header section */
@@ -335,6 +301,7 @@ ul li a {
     ul li a {
         font-size: 17px;
     }
+
    /* brand section */
     .brand-title {
         font-weight: bold;
@@ -350,7 +317,7 @@ ul li a {
         height: 49px;
         border-radius: 5px;
         font-size: 15px;
-        background-color: rgb(255, 166, 0);
+        background-color: #ff900e;
         color: white;
         border: none;
         margin-top: 10px;
@@ -360,7 +327,7 @@ ul li a {
         margin-left: 0px;
         margin-bottom: 0px;
         width: 390px;
-        height: 340px;
+        height: 290px;
     }
    
     /* feature section */
@@ -394,7 +361,7 @@ ul li a {
         height: 49px;
         border-radius: 5px;
         font-size: 15px;
-        background-color: rgb(255, 166, 0);
+        background-color: #ff900e;
         color: white;
         border: none;
         margin-top: 10px;
@@ -404,6 +371,7 @@ ul li a {
         margin-top: 10px;
         margin-left: -20px;
     }
+
     /* content section */
     .container {
         display: flex;
@@ -449,7 +417,7 @@ ul li a {
     }
     .cart-title {
         font-size: 18px;
-        margin-bottom: -7px;
+        margin-bottom: 13px;
     }
     .cart-description {
         font-size: 11px;
@@ -466,7 +434,7 @@ ul li a {
         height: 99px;
         border-radius: 5px;
         font-size: 65px;
-        background-color: rgb(255, 166, 0);
+        background-color: #ff900e;
         color: white;
         margin-top: -55px;
         margin-left: 11px;
@@ -484,8 +452,8 @@ ul li a {
         margin-left: 14px;
         font-size: 24px;
     }
-    /* award section */
 
+    /* award section */
     .carts-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -502,7 +470,7 @@ ul li a {
     .carts-content {
         width: 180px;
         height: 161px;
-        border: 1px solid rgb(255, 166, 0);
+        border: 1px solid #ff900e;
         border-radius: 7px;
     }
     .award-carts {
@@ -519,6 +487,7 @@ ul li a {
         font-size: 12px;
         margin-left: -37px;
     }
+
     /* sponspor section */
     .sponspor-title {
         font-weight: bold;
@@ -530,7 +499,7 @@ ul li a {
         color: #546285;
         margin-left: 26px;
         margin-top: -5px;
-        margin-bottom: 50px;
+        margin-bottom: 65px;
     }
     .sponspor-logo {
         display: grid;
@@ -541,23 +510,21 @@ ul li a {
     .sponspor-images {
         width: 68px;
     }
+
     /* footer section */
     .footer-content {
         background-color: rgb(255 231 231 / 100%);
-        width: 400px;
+        width: 375px;
         height: 70px;
         border-radius: 5px;
-        margin-left: -2px;
+        margin-left: 11px;
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: 44px;
+        margin-top: 40px;
         margin-bottom: 40px;
     }
-    
-    
-    
-    
-    
-    
+    .footer-description {
+        font-size: 11px;
+    }
 }   
